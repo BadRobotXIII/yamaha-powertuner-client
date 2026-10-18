@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "source": "mock://offline-example|monitor",
+  "captured_at": "2026-10-17T00:00:00Z",
+  "parts": [
+    {
+      "name": "monitor",
+      "body": "eyJFR19tb2RlIjowLCJUUFNfYW5nbGUiOjAsIkVDVV92b2x0YWdlIjoxNjR9"
+    }
+  ]
+}

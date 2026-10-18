@@ -1,0 +1,5 @@
+[Details]
+Name = "CCU Read Only"
+ID = "local.powertuner.fyne"
+Version = "0.3.0"
+Build = 6

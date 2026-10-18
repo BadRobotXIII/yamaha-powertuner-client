@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="local.powertuner.fyne" android:versionCode="3" android:versionName="0.3.0">
+ <uses-permission android:name="android.permission.INTERNET" />
+ <!-- Bootstrap manifest for Fyne's legacy binary-XML encoder. build.ps1 uses
+      AndroidManifest.final.xml with the SDK's AAPT2 for the distributable APK. -->
+ <application android:label="CCU Read Only Fyne" android:debuggable="true" android:allowBackup="false">
+  <activity android:name="org.golang.app.GoNativeActivity" android:label="CCU Read Only Fyne" android:exported="true" android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboardHidden|uiMode" android:theme="@android:style/Theme" android:windowSoftInputMode="adjustResize">
+   <meta-data android:name="android.app.lib_name" android:value="ccureadonly" />
+   <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+  </activity>
+ </application>
+</manifest>

@@ -1,0 +1,5 @@
+/*.apk
+/fyne-cross/
+/build-*.log
+/build/
+/dist/
